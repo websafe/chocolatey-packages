@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>kadu</id>
+    <title>Kadu (Install)</title>
+    <version>2.1</version>
+    <authors>KaduTeam</authors>
+    <owners>Thomas Szteliga</owners>
+    <summary>Kadu is an open source Gadu-Gadu and Jabber/XMPP protocol Instant Messenger client for Linux, BSD, Mac OS X and Windows. </summary>
+    <description>Kadu is an open source Gadu-Gadu and Jabber/XMPP protocol Instant Messenger client for Linux, BSD, Mac OS X and Windows.</description>
+    <projectUrl>http://www.kadu.im/</projectUrl>
+    <tags>kadu, GaduGadu, IM, instant messenger, Jabber, XMPP</tags>
+    <copyright>KaduTeam</copyright>
+    <licenseUrl>https://gitorious.org/kadu/kadu/raw/fb80c3fa7b1dfdf3fc0ba510ec70234a8e90c9a2:COPYING.WIN32</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/kadu.png</iconUrl>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+
