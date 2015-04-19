@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>hubic</id>
+    <title>hubiC (Install)</title>
+    <version>2.1.1.145</version>
+    <authors>OVH SAS</authors>
+    <owners>Thomas Szteliga</owners>
+    <summary>The hubiC client.</summary>
+    <description>Store your files online in a personal and secure space. Either upload your documents to your online space yourself, or let the hubiC application do it for you.</description>
+    <projectUrl>https://hubic.com/</projectUrl>
+    <tags>hubiC cloud storage share</tags>
+    <copyright></copyright>
+    <licenseUrl>https://hubic.com/en/contracts/Contrat_hubiC_2014.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/hubic.png</iconUrl>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
